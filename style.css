@@ -55,7 +55,7 @@ ul a:hover{
     padding: 30px;
 }
 .content h2{
-    font-size: 100px ;
+    font-size: 80px ;
     text-transform: uppercase;
 }
 .content p{
@@ -74,4 +74,32 @@ ul a:hover{
     background-color: transparent;
     border-color: white;
     color: white;
+}
+@media(max-width:500px){
+    .content{
+        width: 90%;
+        padding: 15px;
+
+    }
+    .content h2{
+        font-size: 60px ;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        font-size: px;
+    }
+    .content p{
+        letter-spacing: 2px;
+        width: 100%;
+        padding: 20px 0;
+    }
+    ul{
+        width: 100%;
+    }
 }
