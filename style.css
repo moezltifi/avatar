@@ -11,18 +11,18 @@ a{
 }
 body{
     background-image: linear-gradient(#01022d,#000);
-    height: 100vh;
+    height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container{
-    background-image:linear-gradient(to right, #01022de5 30%,#000000c3), url(logo.png);
+    background-image:linear-gradient(to right, #01022de5 30%,#000000c3), url(images/avatar.png);
     width: 90%;
     height: 640px;
 }
 .container:hover{
-    background-image: linear-gradient(to right, #01022de5 30%,transparent), url(logo.png);
+    background-image: linear-gradient(to right, #01022de5 30%,transparent), url(images/avatar.png);
 }
 header{
     display: flex;
