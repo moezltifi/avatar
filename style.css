@@ -1,4 +1,4 @@
-@import url('https //fonts.googleapis.com/css2 family=Ubuntu &display=swap');
+@import url('https://fonts.googleapis.com/css2 family=Ubuntu &display=swap');
 
 *{
     font-family:'Ubuntu', sans-serif;
@@ -17,13 +17,12 @@ body{
     align-items: center;
 }
 .container{
-    background-image:linear-gradient(to right, #01022de5 30%,#000000c3), url(avatar.jpg);
-    background-size: 100% 640px;
+    background-image:linear-gradient(to right, #01022de5 30%,#000000c3), url(logo.png);
     width: 90%;
     height: 640px;
 }
 .container:hover{
-    background-image: linear-gradient(to right, #01022de5 30%,transparent), url(avatar.jpg);
+    background-image: linear-gradient(to right, #01022de5 30%,transparent), url(logo.png);
 }
 header{
     display: flex;
@@ -49,4 +48,30 @@ ul a:hover{
 .logo{
     font-size: 30px;
     text-transform: uppercase;
+}
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px ;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 20px 0;
+}
+.content button{
+    color: #000;
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    bottom: 2px solid transparent;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
 }
